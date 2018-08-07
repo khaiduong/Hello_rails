@@ -57,7 +57,6 @@ resource "aws_instance" "my-test-instance" {
     }
   }
 
-
   tags {
     Name = "test-instance"
   }
